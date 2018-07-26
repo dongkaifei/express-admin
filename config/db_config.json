@@ -1,9 +1,9 @@
 {
   "mysql": {
-    "host": "192.168.3.6",
+    "host": "192.168.122.1",
     "user": "root",
-    "password": "",
-    "database": "demo",
+    "password": "admin",
+    "database": "express-admin",
     "port": 3306,
     "connectionLimit": 50,
     "acquireTimeout": 10000,

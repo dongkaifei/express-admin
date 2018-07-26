@@ -51,6 +51,7 @@ app.use(session({
 }));
 
 app.use(function (req, res, next) {
+    console.log(req.session);
     if (req.session == undefined) {
         var str = "无法获取session（cookie），确保redis是否连接正常。";
         log.error(str);
